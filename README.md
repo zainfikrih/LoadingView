@@ -1,8 +1,7 @@
 # LoadingView
 Cool bezier loading view and dialog
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LoadingView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7424)
-
+[![](https://jitpack.io/v/zainfikrih/LoadingView.svg)](https://jitpack.io/#zainfikrih/LoadingView)
 
 A simple and cool beizer loading view and beizer loading dialog.
 
@@ -15,8 +14,17 @@ A simple and cool beizer loading view and beizer loading dialog.
 ## Import
 
 ```gradle
+allprojects {
+	repositories {
+    ...
+	  maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+```gradle
 dependencies {
-  implementation 'com.samigehi:loadingview:1.1'
+  implementation 'com.github.zainfikrih:LoadingView:1.1'
 }
 ```
 
